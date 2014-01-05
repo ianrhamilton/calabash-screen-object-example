@@ -1,4 +1,3 @@
-calabash-screen-object-example
+welcome
 ==============================
-
-Example project using custom screen-objects in order to create maintainable cross platform Calabash tests. 
+Here you will find the full example code from my blog "Designing maintainable calabash tests using screen-objects".
