@@ -31,22 +31,3 @@ Then /^I (should|should not) be logged in$/ do |negate|
   end
 
 end
-
-
-When(/^I create a new blog post$/) do
-
-  @screen.home_screen.touch_newpost_btn
-  @screen.new_post_screen.await
-  @blog_title, @blog_content = @screen.new_post_screen.add_new_blog_post
-
-end
-
-Then(/^the post should be added$/) do
-
-  @screen.home_screen.await
-  @screen.home_screen.touch_view_posts_btn
-
-  @screen.posts_screen.await
-  @screen.posts_screen.blog_title.should include @blog_title
-
-end
