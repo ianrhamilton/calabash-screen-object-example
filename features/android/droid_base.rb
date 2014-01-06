@@ -14,7 +14,6 @@ class DroidPress < Calabash::ABase
     alias :value    :element
     alias :action   :element
     alias :trait    :element
-    alias :activity :element
   end
 
 end
