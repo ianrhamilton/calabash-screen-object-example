@@ -1,0 +1,2 @@
+rvm --create use ruby-1.9.3@calabash-screen-object-example
+bundle check || bundle install

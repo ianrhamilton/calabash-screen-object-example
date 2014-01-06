@@ -1,0 +1,4 @@
+android: RESET_BETWEEN_SCENARIOS=1 PLATFORM=android APP_PATH=android-source/2.2.7/bin/Dashboard-debug.apk -r features/support -r features/android/support  -r features/step_definitions -r features/android/screens -r features/android/helper
+
+ios: RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios APP_BUNDLE_PATH=ios-source/3.3.1/build/Applications/WordPress.app -r features/support -r features/ios/support  -r features/step_definitions -r features/ios/screens
+
