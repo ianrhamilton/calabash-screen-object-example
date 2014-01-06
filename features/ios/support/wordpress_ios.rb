@@ -15,13 +15,5 @@ class WordPressApp < IWordPress
     @home_screen ||= page(HomeScreen)
   end
 
-  def new_post_screen
-    @new_post_screen ||= page(NewPostScreen)
-  end
-
-  def posts_screen
-    @posts_screen ||= page(PostsScreenIos)
-  end
-
 end
 
